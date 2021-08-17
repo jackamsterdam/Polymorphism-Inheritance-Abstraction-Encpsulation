@@ -62,5 +62,12 @@ let cat = new Cat('Jack', 'milk')
 let dog = new Dog('Joe', true)
 console.log(`Both dog and cat are animals and animals have a black color- but with Polymorphism I can alter inherited properties by giving them different colors, so now the dog is an animal that has a ${dog.color} color and the cat is also an animal that has a ${cat.color} color. So you see that both the cat and the dog do not have a black color like in the Animal class but they have there own unique color`)
 
+const animals = [cat, dog]
+
+for (let animal of animals) {
+    console.log(animal)
+}
+
+
 //  animalאבל למה לעשות את זה? פשוט אפשר לא להביא צבע ל
 //#############################################################################
